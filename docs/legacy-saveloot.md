@@ -1,6 +1,6 @@
 # Сохранение прогресса (Legacy)
 
-![saveloot.lua](./Image_saveloot.png)
+![saveloot.lua](/Image_saveloot.png)
 
 **Сохранение прогресса (`saveloot.lua`)** - это специально разработанный сценарий для **NET Online 17.3b**, представляющий новый большой функционал для работы с сервером.
 
@@ -89,7 +89,7 @@ mp_actor[number] = {}
 | ammo_type    | Тип патронов | не редактируется |
 | addon_flags  | Модули       | битовая маска    |
 
-![Сохранение прогресса](./Ak12_saveloot.png)
+![Сохранение прогресса](/Ak12_saveloot.png)
 
 Для отключения и включения сохранения прогресса, в файле saveloot.lua имеется переменная need_save_loot:
 
@@ -201,7 +201,7 @@ local safe_zone = db.zone_by_name["sr_safe_zone"]
 Для получения команд используется bind_stalker.script. Получение команды происходит в функции mp_actor_binder:update:
 Для корректного вывода требуется задать верный тип команды. Если saveloot.lua подключен, будет выполнен вывод команды.
 
-![Проверка конфигурации игроков](./User_config_example2.png)
+![Проверка конфигурации игроков](/User_config_example2.png)
 
 Пример:
 
@@ -240,7 +240,7 @@ local agit_time_delta = 5 * 60 * 1000
 После чего, в директории $app_data_root$, необходимо создать файл agait_manager.ltx
 
 
-![Рекламный менеджер](./Agait_manager.png)
+![Рекламный менеджер](/Agait_manager.png)
 
 Файл:
 
