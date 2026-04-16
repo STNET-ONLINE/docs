@@ -80,6 +80,22 @@ This is a dangerous warning.
 This is a details block.
 :::
 
+## Line numbers
+
+**Input**
+
+````md
+```cpp:line-numbers
+  #include <demo.h>
+```
+````
+
+**Output**
+
+```cpp:line-numbers
+#include <demo.h>
+```
+
 ## More
 
 Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
