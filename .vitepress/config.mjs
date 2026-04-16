@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
-  base: "https://stnet-online.github.io/docs/",
+  base: "/",
   title: "NET Online",
   description: "Documentation for NET Online",
   themeConfig: {
