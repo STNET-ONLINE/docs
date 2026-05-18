@@ -43,6 +43,7 @@ export default defineConfig({
             { text: 'Семейство версий 19.0', link: '/versions/19.0' },
           ]},
           { text: 'Actual', items: [
+            { text: 'Семейство версий Experimental', link: '/versions/experimental' },
             { text: 'Семейство версий 0.20', link: '/versions/0.20' },
           ]}
         ]
