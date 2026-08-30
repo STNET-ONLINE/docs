@@ -16,9 +16,9 @@ export default defineConfig({
     },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Our Team', link: '/team' },
-      { text: 'Markdown Examples', link: '/markdown-examples' }
+      { text: 'Главная', link: '/' },
+      { text: 'Наша команда', link: '/team' },
+      { text: 'Документация', link: '/info' }
     ],
 
     sidebar: [
@@ -29,9 +29,16 @@ export default defineConfig({
         ]
       },
       {
-        text: 'Сценарные действия',
+        text: 'Сценарные действия и функции',
         items: [
-          { text: 'Сохранение прогресса (Legacy)', link: '/legacy-saveloot' }
+          { text: 'Сохранение прогресса (Legacy)', link: '/legacy-saveloot' },
+          { text: 'Менеджер группировок', link: '/faction' }
+        ]
+      },
+      {
+        text: 'Логика',
+        items: [
+          { text: 'Персональные хранилища', link: '/logics/stashes' },
         ]
       },
       {

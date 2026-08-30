@@ -12,7 +12,7 @@ const members = [
   {
     avatar: 'https://github.com/VodkaNET.png',
     name: 'Dmitry',
-    title: 'Game Designer',
+    title: 'Гейм-дизайнер',
     links: [
       { icon: 'github', link: 'https://github.com/VodkaNET' },
       { icon: 'vk', link: 'https://vk.com/dapatenok' }
@@ -21,7 +21,7 @@ const members = [
   {
     avatar: 'https://github.com/hkuprin.png',
     name: 'Kuprin',
-    title: 'Programmer',
+    title: 'Программист',
     links: [
       { icon: 'github', link: 'https://github.com/hkuprin' },
       { icon: 'vk', link: 'https://vk.com/kuprin1163' }
@@ -30,7 +30,7 @@ const members = [
   {
     avatar: 'https://github.com/Hozar2002.png',
     name: 'Hozar2002',
-    title: 'Programmer',
+    title: 'Программист',
     links: [
       { icon: 'github', link: 'https://github.com/Hozar2002' },
       { icon: 'vk', link: 'https://vk.com/@stalker_hozar' }
@@ -45,7 +45,7 @@ const members = [
       NET Online Team
     </template>
     <template #lead>
-      We are a team of developers specializing in game and mod creation. We've been active for over 5 years, during which we've released several original projects and delivered a number of closed-case solutions for gaming communities and partner initiatives.
+      Мы - команда разработчиков, специализирующаяся на создании игр и модов. Мы работаем уже более 5 лет, за это время мы выпустили несколько оригинальных проектов и представили ряд закрытых решений для игровых сообществ и партнерских инициатив.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers :members />
